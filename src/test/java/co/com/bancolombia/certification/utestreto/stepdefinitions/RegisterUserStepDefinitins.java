@@ -33,7 +33,6 @@ public class RegisterUserStepDefinitins {
     public void userCreateAnAccountFillingAllField() {
 // definimos las tareas cuando el usuario hace algo
         theActorInTheSpotlight().attemptsTo(RegisterUserReto.makeinformation());
-
     }
 
     @Then("^User sees its username$")
